@@ -17,6 +17,7 @@ void input()
             cout << "\nArray should have minumum 1 and maximum 20 elements. \n\n";
     }
    
+    
     //Accept array elements
     cout << "\n----------------\n";
     cout << " Enter array elements \n";
@@ -26,5 +27,13 @@ void input()
         cout << "<" << (i + 1) << ">";
         cin >> arr[i];
     }
+}
+
+
+
+void LineSearch()
+{
+    char ch;
+    int ctr;   //Number of comparisons
 }
 
