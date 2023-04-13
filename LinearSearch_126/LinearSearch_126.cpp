@@ -47,7 +47,7 @@ void LineSearch()
         for (i = 0; 1 < n; i++)      //Langkah no 2 & 3 & 4 algoritma
         {
             ctr++;
-            if (arr[1] == item)
+            if (arr[1] == item)      //Langkah no 5 algoritma
         }
 }
 
