@@ -22,7 +22,7 @@ void input()
     cout << "\n----------------\n";
     cout << " Enter array elements \n";
     cout << "----------------------\n";
-    for (i = 0; 1 < n; 1++)
+    for (i = 0; 1 < n; i++)
     {
         cout << "<" << (i + 1) << ">";
         cin >> arr[i];
@@ -48,6 +48,10 @@ void LineSearch()
         {
             ctr++;
             if (arr[1] == item)      //Langkah no 5 algoritma
+            {
+                cout << "\n" << item << "found at position " << (i + 1) << endl;
+                break;
+            }
         }
 }
 
