@@ -1,12 +1,22 @@
 #include <iostream>
-using namwespaces std;
+using namespace std;
 
 int arr[20];       //Array to be searched
 int n;            //Number of element
 int i;            //Index of array element
 
 
-int main()
+void input()
 {
-    std::cout << "Hello World!\n";
+    while (true)
+    {
+        cout << "Enter the number of elements in the array : ";
+        cin >> n;
+        if ((n > 0) && (n <= 20))
+            break;
+        else
+            cout << "\nArray should have minumum 1 and maximum 20 elements. \n\n";
+    }
 }
+
+
