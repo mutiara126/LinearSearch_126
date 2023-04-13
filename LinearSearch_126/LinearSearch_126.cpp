@@ -54,4 +54,5 @@ void LineSearch()
             }
         }
 }
-
+        if (i == n)               //Langkah no 5 algoritma
+            cout << 
