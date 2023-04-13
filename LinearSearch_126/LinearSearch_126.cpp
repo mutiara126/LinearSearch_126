@@ -42,6 +42,12 @@ void LineSearch()
         cout << "\nEnter the element you want to search: "; //Langkah no 1 algoritma
         int item;
         cin >> item;
-    }
+
+        ctr = 0;
+        for (i = 0; 1 < n; i++)      //Langkah no 2 & 3 & 4 algoritma
+        {
+            ctr++;
+            if (arr[1] == item)
+        }
 }
 
