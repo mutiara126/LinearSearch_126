@@ -37,7 +37,7 @@ void LineSearch()
     int ctr;   //Number of comparisons
 
     do
-    { 
+    {
         //Accept the number to br searched
         cout << "\nEnter the element you want to search: "; //Langkah no 1 algoritma
         int item;
@@ -53,7 +53,19 @@ void LineSearch()
                 break;
             }
         }
-}
+    }
     if (i == n)               //Langkah no 5 algoritma
         cout << "\n" << item << "not found in the array\n";
     cout << "\nNumber of comparisons: " << ctr << endl;
+
+    cout << "\ncontinue search (y/n): ";
+    cin >> ch;
+  } while ((ch == 'y') || (ch == 'y'));
+}
+
+
+int main()
+{
+    input();
+    LinearSearch();
+}
