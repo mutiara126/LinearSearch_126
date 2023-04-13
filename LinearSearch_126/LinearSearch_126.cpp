@@ -54,5 +54,6 @@ void LineSearch()
             }
         }
 }
-        if (i == n)               //Langkah no 5 algoritma
-            cout << 
+    if (i == n)               //Langkah no 5 algoritma
+        cout << "\n" << item << "not found in the array\n";
+    cout << "\nNumber of comparisons: " << ctr << endl;
